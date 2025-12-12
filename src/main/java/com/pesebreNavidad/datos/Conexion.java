@@ -34,8 +34,9 @@ public class Conexion
 		
 		this.driver ="org.postgresql.Driver";
 		this.user="postgres";
-		this.pwd="admin";
-		this.cadena="jdbc:postgresql://localhost:5432/bd_pesebreNavidad";
+		this.pwd="1234";
+		this.cadena="jdbc:postgresql://localhost:5432/bd_pesebre";
+>>>>>>> upstream/main
 		this.con=this.crearConexion();	
 	}
 	
